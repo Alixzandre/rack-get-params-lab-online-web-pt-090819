@@ -27,7 +27,7 @@ class Application
       if @@items.include?(item)
         
       else
-        
+        resp.write ""
       end
     else
       resp.write "Path Not Found"
